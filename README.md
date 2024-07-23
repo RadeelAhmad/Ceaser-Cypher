@@ -5,24 +5,27 @@ This project implements Caesar Cipher encryption and decryption in Assembly lang
 - [Radeel Ahmed](https://github.com/RadeelAhmad)
 - [Muhammad Abdullah](https://github.com/iabdullah215)
 
-Project Structure
-Irvine32.inc and macros.inc are included for basic I/O operations.
-BUFFER_SIZE is set to 100 bytes to handle input data.
-data section contains necessary variables and prompts for user input.
-code section contains the main procedure and encryption/decryption logic.
-How to Run the Program
-Compile and Link: Use an assembler like MASM to compile and link the program.
+## Project Structure
+- `Irvine32.inc` and `macros.inc` are included for basic I/O operations.
+- `BUFFER_SIZE` is set to 100 bytes to handle input data.
+- `data` section contains necessary variables and prompts for user input.
+- `code` section contains the main procedure and encryption/decryption logic.
 
-bash
-Copy code
+## How to Run the Program
+
+- **Compile and Link:** Use an assembler like MASM to compile and link the program.
+- 
+```bash
 ml /c /coff yourfilename.asm
 link /subsystem:console yourfilename.obj Irvine32.lib
-Execute the Program: Run the compiled executable.
+```
+- **Execute the Program:** Run the compiled executable.
 
-bash
-Copy code
+```bash
 yourfilename.exe
-Input Filename: Enter the name of the input file containing the plaintext or ciphertext.
+```
+
+- **Input Filename:** Enter the name of the input file containing the plaintext or ciphertext.
 
 Select Choice:
 
