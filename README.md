@@ -2,8 +2,8 @@
 This project implements Caesar Cipher encryption and decryption in Assembly language using the Irvine32 library. The program allows users to input a text file and a shift key, then either encrypts or decrypts the text based on the user's choice.
 
 ## Group Members
-Radeel Ahmad - 221544
-Muhammad Abdullah - 221546
+- [Radeel Ahmed](https://github.com/RadeelAhmad)
+- [Muhammad Abdullah](https://github.com/iabdullah215)
 
 Project Structure
 Irvine32.inc and macros.inc are included for basic I/O operations.
