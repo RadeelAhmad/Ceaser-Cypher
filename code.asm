@@ -29,8 +29,6 @@ mWrite 'Radeel Ahmad - 221544', 0
 call crlf
 mWrite 'Muhammad Abdullah - 221546', 0
 call crlf
-mWrite 'Abdul Moiz - 200976', 0
-call crlf
 mWrite '-----------------------------------------------------', 0
 call crlf
 mov edx, OFFSET f
