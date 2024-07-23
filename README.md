@@ -59,7 +59,7 @@ yourfilename.exe
 
 ## Example
 
-```bash
+```console
 ***********************
 Project Caesar Cipher
 ***********************
